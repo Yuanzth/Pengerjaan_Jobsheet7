@@ -34,9 +34,13 @@ public class WhileGaji02 {
             {
                 gajiLembur = jumlahJamLembur * 75000;
             }
+            else 
+            {
+                System.out.println("Jabatan Invalid");
+                i--;
+            }
             totalGajiLembur += gajiLembur;
         }
         System.out.println("Total gaji lembur : " + totalGajiLembur);
     }
-
 }
